@@ -14,6 +14,16 @@ terraform {
 }
 ```
 
+## Running
+
+1. set `GOOGLE_OAUTH_ACCESS_TOKEN` [with a service account](../readme.md)
+2. run terraform commands
+```shell
+# whatever terraform commands you want to run
+terraform init
+terraform plan
+```
+
 ## Tip: work inside the `modules` folder (not in `environments`)
 
 The only use cases where you need to make a change in the `environments`

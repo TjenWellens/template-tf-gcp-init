@@ -25,7 +25,6 @@ Creates basic infrastructure for a project:
 
 ### Tips
 
-- run the infra-service always as a service account, this way you keep it's permissions up to date (see 'How to' section)
 - add the minimal role possible, for security reasons
 
 ---
@@ -39,6 +38,9 @@ to [Google's terraform best practices](https://cloud.google.com/docs/terraform/b
 
 1. copy it into your folder
 2. follow the steps in the [readme](./infra-service/readme.md)
+
+### Tips
+- run the infra-service always as a service account, this way you keep it's permissions up to date (see 'How to' section)
 
 ---
 
