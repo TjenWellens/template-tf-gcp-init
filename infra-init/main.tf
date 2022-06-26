@@ -9,10 +9,6 @@ resource "google_storage_bucket" "default" {
   labels = var.labels
 }
 
-output "bucket-tfstate-name" {
-  value = google_storage_bucket.default.name
-}
-
 module "enable-apis" {
   source                      = "./modules/enable-apis"
   project_id                  = var.project_id
