@@ -38,7 +38,7 @@ The only use cases where you need to make a change in the `environments`
 other than that, all work should be in `modules/main` or in `modules/xxx` if you create your own submodules
 
 ## Tip: add a `terraform.tfvars` file in each environment folder
-probably the same file per project (yeah, I should think of a way to avoid copying, it sucks)
+this makes it easy to run separate environments in a different google-project
 
 ```terraform
 project_id          = "your-google-project-id"
