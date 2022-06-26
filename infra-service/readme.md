@@ -37,3 +37,7 @@ zone                = "europe-west2-a"
 project_name_prefix = "your-unique-project-name"
 ```
 
+NEVER put any secrets in there!
+- no api keys
+- no passwords
+- ...
